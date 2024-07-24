@@ -143,5 +143,35 @@ input, textarea {
         padding: 15px 30px;
     }
 }
+@media(max-width:450px){
+    .contact-title h1{
+        font-size: 40px;
+    }
+    .footer-top-left img{
+        width: 90px;
+        height: 60px;
+    }
+    .footer-top-left p{
+        font-size: 16px !important;
+    }
+    .footer-email-input input{
+        font-size: 16px !important;
+    }
+    .footer-email-input{
+        width: 180px !important;
+    }
+    .footer-top-right{
+        gap: 10px !important;
+    }
+    .footer-subscribe{
+        padding: 15px 25px !important;
+    }
+    .footer-bottom{
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        text-align: center;
+    }
+}
 
 

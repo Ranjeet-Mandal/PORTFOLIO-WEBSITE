@@ -109,3 +109,25 @@
     }
 
 }
+@media(max-width:450px){
+    .services-title h1{
+        font-size: 42px;
+    }
+    .services-title img{
+        width: 120px;
+        
+        /* margin-bottom: 10px; */
+    }
+   .services-container{
+    grid-template-columns: 1fr;
+   }
+   .services-format{
+    margin-bottom: 30px;
+    padding: 40px 20px;
+    
+   }
+   .services-format p{
+    font-size: 18px;
+   }
+}
+

@@ -79,9 +79,27 @@
     .work-container img{
         width: 280px;
         height: 180px;
+        
     }
     .mywork-showmore{
         font-size: 18px;
         padding: 15px 35px;
+    }
+}
+@media(max-width:450px){
+    .work-title h1{
+        font-size: 40px;
+    }
+    .work-title img{
+        width: 120px;
+    }
+    .work-container img{
+        width: 180px;
+        height: 120px;
+    }
+    .mywork-showmore{
+        font-size: 16px;
+        padding: 15px 25px;
+        /* width: 180px; */
     }
 }
